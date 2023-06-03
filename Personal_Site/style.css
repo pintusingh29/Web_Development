@@ -1,0 +1,64 @@
+/* ========== Google Fonts ==========*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+:root {
+    --first-color: hsl(225, 72%, 55%);
+    --text-color: hsl(225, 52%, 30%);
+    --body-color: #ADD8E6;
+    --container-color: hsl(225, 75%, 97%);
+
+/* ========== Font and typography ========== */
+/* .5rem = 18px | 1rem = 16px ...*/
+--body-font: 'Montserrat', sans-serif;
+--normal-font-size: 1rem;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--body-color);
+    font-family: var(--body-font);
+}
+
+.intro-1{
+    float: left;
+    padding: 5%;
+}
+
+.intro-2{
+    padding: 2%;
+}
+.intro-3{
+    padding: 2%;
+}
+.intro-4{
+    padding: 2%;
+}
+.intro-5{
+    display: inline-block;
+    padding: 2%;
+    justify-content: center;
+    margin-left: 34.3%;
+}
+.skills{
+    padding: 2%;
+}
+.other{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+.unlisted{
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.reserved{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
